@@ -1,0 +1,14 @@
+{
+  "name": "my-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "debug": "node --inspect --inspect-brk node_modules/webpack/bin/webpack.js",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
